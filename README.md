@@ -118,5 +118,5 @@ Every framework in the market has a varied purposes so does RadicalCSS. They hav
 
 RadicalCSS in general does not focus on forcing a ui style, it rather shows you how to use css in a more meaningful way, such that it can be scaled, re-used and maintained.
 
-Detailed description with diagram is present in this Doc file [link to Document](https://code.cognizant.com/534003/radicalCSS/blob/master/RadicalCSS.pdf)
+Detailed description with diagram is present in this Doc file [link to Document](https://github.com/tanmay1978/radicalcss/blob/master/RadicalCSS.pdf)
 
