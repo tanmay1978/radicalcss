@@ -1,0 +1,65 @@
+/*
+*  Radical CSS Main file
+*/
+
+
+/**
+*    Contents are of the scss files are added individually, thus maintaining
+*    control of which file to come first. The categorisation are as follow
+*
+*    SETTINGS .......... This will contain the global settings of the projects
+*    TOOLS ............. This would contain globally available tools like mixins
+*    GENERICS .......... This would contain very high level and far reaching styles
+*    ELEMENTS .......... This should contain the bare unclasses elements like h2, label, etc.
+*    MODULES ........... This contains class based selectors, ensuring non-cosmetic design patterns.
+*    COMPONENTS ........ Formed from modules like pg footer, header, etc.
+*    TRUMPS ............ This layer overrides the above all layers.
+*    TEMPLATES .........
+*    PAGES ............. 
+**/
+
+/* ============================ BASE FRAMEWORK =========================== */
+
+//SETTINGS
+@import "settings.global";
+@import "settings.default";
+@import "settings.type";
+@import "settings.color";
+
+
+// TOOLS
+@import "tools.mixins";
+
+// GENERICS
+@import "generic.normalise";
+@import "generic.reset";
+@import "generic.boxsizing";
+@import "generic.utilities";
+
+// ELEMENTS/Atoms
+@import "element.page";
+@import "element.form";
+
+/* ============================ BASE FRAMEWORK =========================== */
+
+// MODULES/Molecules
+@import "module.forms";
+@import "module.layout";
+@import "module.navigation";
+@import "module.page";
+
+// COMPONENTS/Organisms
+@import "component.form";
+@import "component.head";
+@import "component.page";
+@import "component.button";
+
+
+// TRUMPS
+
+
+// TEMPLATES
+
+
+// PAGES
+

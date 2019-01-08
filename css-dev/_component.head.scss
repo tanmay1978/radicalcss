@@ -1,0 +1,22 @@
+//
+// component related styles for head section
+// component will decide the position and layout of the molecules/modules. modules 
+// need to be self sustained and reusable.
+//
+
+.c_header {
+  width: auto;
+  vertical-align: middle;
+  overflow: auto;
+  background-color: $color-grey1;
+
+  .m-search-container {
+    float: right;
+  }
+}
+
+
+// modules position will be decided by the component
+.m_navigation {
+  float: left;
+}

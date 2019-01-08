@@ -1,0 +1,41 @@
+/*
+    navigation styles at the module level
+*/
+
+// navigation-link module
+.m_navigation-links {
+    float: left;
+    margin: 30px 8px;
+    padding: 0;
+
+    .m_links {
+        color: $color-blue;
+
+        &:hover {
+            color: red;
+        }
+
+    }
+}
+
+// link module - Need to be abstracted to a seperate file
+.m_links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+
+.m_link-items {
+    display: inline-block;
+    margin-right: 8px;
+}
+
+
+// logo module, NOTE: included inside navigation. Ideally it should be in a seperate file.
+.m_navigation-logo {
+    float: left;
+    width: 100px;
+    margin-top: 15px;
+    box-shadow: 1px 1px 4px 0px;
+}

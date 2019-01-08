@@ -1,0 +1,31 @@
+/*
+    These are global settings used by all the files.
+*/
+
+// The global settings file contains any project-wide variables; things that
+// need to be made available to the entire codebase.
+
+// Standardise some UI treatments.
+$global-radius: 3px !default;
+$global-transition: all 300ms ease-in-out !default;
+
+$system-fonts: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+
+
+// Typography
+//
+// 1. Set a root font size for the entire document.
+// 2. Set a base font size for all relative and non-rem sizes.
+
+$rad-root-font-size:      16px !default; // [1]
+$rad-base-font-size:      1rem !default; // [2]
+$rad-base-line-height:    1.6 !default;
+
+// Spacers - spacing for maintaining the v-rythm
+
+$spacer:           ($rad-root-font-size * $rad-base-line-height);
+
+$spacer-x:         $spacer;
+$spacer-y:         $spacer;
+
+$content-margin-bottom:        $spacer-y;

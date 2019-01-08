@@ -1,0 +1,12 @@
+/* 
+* Button related styles at component level
+*/
+
+$rad-btn-font-size: $rad-base-font-size;
+$rad-btn-line-height: $rad-base-line-height;
+
+
+.#{$rad-components-namespace}btn {
+    line-height: $rad-spacer-y;
+    font-size: inherit;
+}

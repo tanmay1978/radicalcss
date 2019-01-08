@@ -1,0 +1,41 @@
+// RadicalCSS
+// SETTINGS.DEFAULTS
+//
+// Here we define a few variables and settings that are required for using the
+// rest of the framework out-of-the-box, without overwriting module variables.
+//
+
+
+
+// Namespaces
+//
+// Would you like the framework's classes to be prepended with namespaces?
+// If so, define them here.
+//
+// 1. Generic namespace for all classes declared by the framework.
+// 2. Namespace for a specific layer of the framework.
+
+$rad-namespace:               '' !default; // [1]
+$rad-objects-namespace:       $rad-namespace + 'o-' !default; // [2]
+$rad-components-namespace:    $rad-namespace + 'c-' !default; // [2]
+$rad-trumps-namespace:        $rad-namespace + 'u-' !default; // [2]
+
+// Typography
+//
+// 1. Set a root font size for the entire document.
+// 2. Set a base font size for all relative and non-rem sizes.
+
+$rad-root-font-size:      16px !default; // [1]
+$rad-base-font-size:      1rem !default; // [2]
+$rad-base-line-height:    1.6 !default;
+
+// Main Colors
+
+
+// Spacing
+
+// These variables can be used as spacing units throughout your project.
+
+$rad-spacer:      ($rad-base-font-size * $rad-base-line-height) !default;
+$rad-spacer-x:    $rad-spacer !default;
+$rad-spacer-y:    $rad-spacer !default;

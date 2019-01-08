@@ -1,0 +1,34 @@
+/*
+    Color settings for project
+*/
+
+// Main Colors
+
+$rad-base-color:           #333 !default;
+$rad-base-bg:              #fff !default;
+$rad-base-border-color:    #ccc !default;
+
+
+// brand color
+$color-brand-blue: #4fccf9;
+
+
+
+//utility colors
+$color-error: #991903;
+$color-success: #2b6b30;
+$color-warning: #e28b18;
+
+
+//brand color and greyscale colors
+$color-blue: #0275d8;
+$color-white: #fff;
+$color-grey1: #DEDEDE;
+$color-grey2: #d9d9d9;
+$color-grey3: #222222;
+
+
+
+// base body color
+$body-color: $color-grey3 !default;
+$body-link: $color-blue !default;
